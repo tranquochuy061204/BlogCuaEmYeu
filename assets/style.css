@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+.wrapper {
+    margin-top: -20px;
+    
+}
+
+#welcome {
+    background-size: cover;
+    color: #fd8a8a;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    height: 850px;
+    border-bottom: 2px solid aliceblue;
+    background-color: #ffcbcb;
+    
+}
+
+#welcome {
+    font-size: 35px;
+}
+
+#welcome #name {
+    margin-top: 20px;
+}
+
+
+
+.image {
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 13%;
+    left: 37%;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-me {
+    position: absolute;
+    z-index: 10;
+    background-color: #f0d5d5;
+    width: 400px;
+    font-size: 25px;
+    left: 36.5%;
+    bottom: 320px;
+    border-radius: 30px;
+}
+
+
+.about-me:hover {
+    background-color: #f8bcbc;
+
+}
+
+
+
+
+#soical-media {
+    position: absolute;
+    width: 1200px;
+    bottom: 60px;
+    left: 10.5%;
+
+}
+
+#soical-media-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#soical-media-ul li {
+    display: flex;
+    width: 20%;
+    background-color: #f0d5d5;
+    border-radius: 30px;
+    height: 100px;
+    align-items: center;
+}
+
+#soical-media-ul li a{
+    display: flex;
+    align-items: center;
+   padding-left: 20px;
+}
+
+#soical-media-ul li:hover {
+    background-color: #f8bcbc;
+}
+
+
+
+#soical-media-ul i {
+    margin-right: 15px;
+}
+
+#soical-media-ul h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+
+}
+
+#soical-media-ul p {
+    
+    font-size: 20px;
+}
+
+#soical-media-ul i {
+    display: inline-block;
+}
+
+#soical-media-ul .sm-description {
+    display: inline-block;
+
+}
+
+
+
+#welcome .gmail {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: #f0d5d5;
+    border-radius: 30px;
+    height: 100px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#welcome .gmail h1 {
+    font-size: 30px;
+
+}
+
+#welcome .gmail p {
+    font-size: 20px;
+}
+
+
+#about-me {
+    height: 750px;
+    background-color: #d7f7b3;
+    display: flex;
+
+}
+
+
+
+#about-me .thumb {
+
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-me .about-me-image {
+    width: 400px;
+    border: 5px aliceblue solid;
+    border-radius: 30px;
+    height: 400px;
+     
+}
+
+#about-me .about-me-image img {
+    width: 100%;    
+    height: 100%;
+    border-radius: 30px;
+    
+}
+
+
+#about-me .description {
+    color: #417607;
+    text-align: left;
+    padding: 0 20px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#about-me .description h1 {
+    font-size: 70px;
+    text-align: center;
+
+
+}
+
+#about-me .description p {
+    font-size: 25px;
+
+}
+
+#who-am-i {
+    color: #087575;
+    height: 500px;
+    text-align: center;
+    background-color: #a8d1d1;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#who-am-i i {
+    font-size: 50px;
+}
+
+#who-am-i h1 {
+    font-size: 70px;
+}
+
+#who-am-i ul {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+#who-am-i ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    border: 10px solid #cdefef; 
+    border-radius: 30px;
+}
+
+#career-section {
+    background-color: #9ea1d4;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+#career-section .description {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+
+#career-section .description h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#career-section .description p {
+    font-size: 25px;
+
+
+}
+
+#career-section .thumb {
+    margin-left: 30px;
+    background-color: black;
+    width: 25%;
+    height: 50%px;
+    border: 10px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px black;
+    
+    
+}
+
+#career-section .thumb  img {
+    width: 100%;
+    height: 110%;
+    object-fit: contain;
+}
+
+#footer {
+    color: #fd8a8a;
+    background-color: #ffcbcb;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .img {
+    width: 300px;
+
+}
+
+#footer .description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer .description h1 {
+    font-size: 70px;
+
+}
+
+#footer .description p {
+    font-size: 50px;
+
+}
+
+#footer .img2 {
+    width: 260px;
+    margin-top: 20px;
+}
+
+#footer img {
+    width: 100%;
+    object-fit: cover;
+}
